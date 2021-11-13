@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N. C. A.</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Typing effect -->
+    <section>
+        <div class="container-1">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="banner">
+                        <div class="banner-text">
+                            <h1># Hello world!</h1>
+                            <h2>#<span class="ityped"></span></h2>
+                            <hr id="first-hr">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nav -->
+    <section>
+        <div class="container-2">
+            <div class="row">
+                <div class="col-xs-6"><button id="info-button">> Info</button></div>
+                <div class="col-xs-6"><button id="fun-button">> Fun</button></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Illustration -->
+    <div class="container">
+        <div class="row pic">
+            <div class="col-12">
+                <img src="Icons\web 2.png" alt="illustration" class="my-pic">
+            </div>
+        </div>
+    </div>
+    <!-- Main body -->
+    <section>
+        <div class="container-info">
+            <div class="row">
+                <hr class="Second-hr">
+                <div class="col-12 col-sm-6 main-info">
+                    <div>
+                        <h3>My skillset</h3>
+                        <ul class="check-list">
+                            <li>HTML</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <h3>Aim to improve</h3>
+                        <ul class="check-list">
+                            <li>Python</li>
+                            <li>PHP</li>
+                            <li>Django</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 main-info">
+                    <div class="Prologue">
+                        <h3>My story</h3>
+                        <p>
+                            > Hello, my name is Nikos Alexopoulos and this is my site.
+                            I studied for two years (2014-2016) at IEK XYNH in Athens to become a web developer.
+                        </p>
+                        <p>    
+                            > In this pandemic I had the opportunity and the time to attend some courses for something I really liked.
+                        </p>
+                        <p>
+                            > My current goal is to work as a junior web developer so I can learn more and get hands-on experience. 
+                        </p>
+                    </div>
+                </div>
+                <hr class="Second-hr">
+            </div>
+            <div class="row">
+                <div class="col-12 in-badge">
+                    <div> <a href="https://www.credly.com/badges/91da8712-6672-4473-a3f1-91a9db57802e/public_url" target="_blank"><img src="Icons\networking-essentials.png" alt="Cisco Badge" class="b-img"></a></div>
+                    <div> <a href="https://www.credly.com/badges/22532577-fe85-499e-b5b2-aadcc5e489e9/public_url" target="_blank"><img src="Icons\google-it-support-certificate.png" alt="Google Badge" class="b-img"></a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fun hidden">
+            <div class="row">
+                <div class="col-12 selection">
+                    <button id="t-t-t">> T-T-T</button>
+                    <button id="r-p-s">> R-P-S</button>
+                </div>
+                <div class="row">
+                    <div class="col-12 g-space">
+                        <h2 class="g-text">Select one!</h2>
+                        <div class="TICTACTOE hidden"> 
+                            <section class="section">
+                                <h1 class="game--title">Tic Tac Toe</h1>
+                                <div class="game--container">
+                                    <div data-cell-index="0" class="cell"></div>
+                                    <div data-cell-index="1" class="cell"></div>
+                                    <div data-cell-index="2" class="cell"></div>
+                                    <div data-cell-index="3" class="cell"></div>
+                                    <div data-cell-index="4" class="cell"></div>
+                                    <div data-cell-index="5" class="cell"></div>
+                                    <div data-cell-index="6" class="cell"></div>
+                                    <div data-cell-index="7" class="cell"></div>
+                                    <div data-cell-index="8" class="cell"></div>
+                                </div>
+                                <h2 class="game--status"></h2>
+                                <button class="game--restart">Restart Game</button>
+                            </section>
+                        </div>
+                        <div class="ROCK hidden"> 
+                            <section class="section">
+                                <h1 class="game--title">Rock Paper Scissors</h1>
+                                <div class="rps-container">
+                                    <div class="row rockgame">
+                                        <div id="rock" class="col-xs-4 rock">&#129304</div>
+                                        <div id="paper" class="col-xs-4 paper">&#129531</div>
+                                        <div id="scissors" class="col-xs-4 scissors">&#9986</div>
+                                    </div>
+                                </div>
+                                <h1>Score</h1>
+                                <h2 class="clearMyScore">You : <span id="player_score">0</span>	| Computer : <span id ="computer_score">0</span></h2>
+                                <p id="info-r-p-s"></p>
+                                <button id="reset-r-p-s">Reset Score</button>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section>
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-12 col-sm-6 contact">
+                    <div> <a href="mailto:n.ch.alex.95@gmail.com?subject = Feedback&body = Message"><img src="Icons\email-transparent.png" alt="Email" class="c-img"></a></div>
+                    <div> <a href="https://github.com/NikolaosChA" target="_blank"><img src="Icons\github-transparent.png" alt="Github" class="c-img"></a></div>
+                    <div> <a href="https://www.linkedin.com/in/nikos-alexopoulos-a7676b211/" target="_blank"><img src="Icons\linkedin-transparent.png" alt="LinkedIn" class="c-img"></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Plugin -->
+    <script src="Plugins\ityped-master\dist\index.js"></script>
+    
+    <script>
+
+        ityped.init(document.querySelector(".ityped"), {
+            showCursor: true,
+            strings: [' Welcome to my site!', ' If you have any questions check my contact info down-below.', ' Lets get in touch!']
+        })
+
+    </script>
+
+    <!-- jQuery CDN -->
+    
+
+    <!-- Main buttons -->
+    <!-- TODO: add css on hidden to be safe -->
+
+    <script>
+        $(document).ready(function(){
+            $("#fun-button").on("click", function(e){
+                e.preventDefault();
+                $(".container-info").addClass("hidden");
+
+                $(".container-fun").removeClass("hidden");
+                // $(".g-text").text("Select one!")
+
+            })
+            $("#info-button").on("click", function(e){
+                e.preventDefault();
+                $(".container-fun").addClass("hidden");
+
+                $(".container-info").removeClass("hidden");
+                $(".g-text").removeClass("hidden");
+                $(".TICTACTOE").addClass("hidden");
+                $(".ROCK").addClass("hidden");
+            })
+        })
+    </script>
+
+    <!-- Game buttons -->
+
+    <script src="t-t-t.js"></script>
+
+    <script src="r-p-s.js"></script>
+
+</body>
+</html>

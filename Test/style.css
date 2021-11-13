@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+    background: #e6f0e6;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* TYPING EFFECT */
+
+.banner{
+    width: 100%;
+}
+.banner-text{
+    margin-top: 0.5em;
+    margin-bottom: 1.6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.banner-text h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0.2em 0;
+    font-size: 0.9em;
+
+}
+
+#first-hr {
+    width: 30%;
+    margin: auto;
+}
+
+/* ----------------------------------------------- */
+/* Button CSS */
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 1.6em;
+}
+
+#info-button {
+    background: #e6f0e6;
+    border: 0.1em solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+}
+
+#info-button:hover{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#fun-button {
+    background: #e6f0e6;
+    border: 0.1em solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+}
+
+#fun-button:hover{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------- */
+/* MY ILLUSTRATIONS */
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+.my-pic {
+    width: 4em;
+    height: 4em;
+}
+
+/* ----------------------------------------------- */
+/* INFO */
+
+.container-info {
+    position: relative;
+    margin: auto;
+    /* margin-bottom: 0.9em; */
+    width: 80%;
+    background: #f8f3e6;
+}
+
+.container-fun {
+    position: relative;
+    margin: auto;
+    /* margin-bottom: 0.9em; */
+    width: 80%;
+    height: 32em;
+    background: #f8f3e6;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Prologue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    font-family: Arial, Helvetica;
+    font-size: 1.16em;
+}
+
+.check-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+  
+.check-list li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+  
+.check-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00a8a8;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+  }
+
+/* ----------------------------------------------- */
+/* BADGES */  
+
+.in-badge {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.b-img {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.b-img:hover {
+    opacity: 0.7;
+    width: 2.4em;
+    height: 2.4em;
+}
+
+.Second-hr {
+    width: 60%;
+}
+
+/* ----------------------------------------------- */
+/* GAMES */
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+#t-t-t {
+    background: #f8f3e6;
+    border: 0.1em solid  rgb(224, 235, 238);
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5.5em;
+}
+
+#t-t-t:hover{
+    background-color:  rgb(224, 235, 238);
+    transition: 1s;
+}
+
+#r-p-s {
+    background: #f8f3e6;
+    border: 0.1em solid  rgb(224, 235, 238);
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5.5em;
+}
+
+#r-p-s:hover{
+    background-color: rgb(224, 235, 238);
+    transition: 1s;
+}
+
+.g-space {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.g-text {
+    margin-top: 3.5em;
+}
+
+
+/* ----------------------------------------------- */
+/* Footer */
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: auto; */
+}
+
+.contact {
+    display: flex;
+}
+
+.c-img {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.c-img:hover {
+    opacity: 0.7;
+    width: 2.3em;
+    height: 2.3em;
+}
+
+
+/* ----------------------------------------------- */
+/* ACTUAL GAMES */
+
+/* ----------------------------------------------- */
+/* TIC TAC TOE */
+
+.section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 2.2em;
+    color: black;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
+    background-color: rgb(204, 214, 218);
+}
+
+.cell {
+    width: 8rem;
+    height: 8rem;
+    border: 0.5em solid #f8f3e6;
+    cursor: pointer;
+}
+
+.game--status {
+    color: black;
+    margin: auto;
+}
+
+.game--restart {
+    background: #f8f3e6;
+    border: 0.2em solid  rgb(224, 235, 238);
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game--restart:hover{
+    background-color:  rgb(224, 235, 238);
+    transition: 1s;
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* ROCK PAPER SCISSORS */
+
+.rockgame {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.rock, .paper, .scissors {
+    background-color: rgb(204, 214, 218);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2em;
+    max-width: 30%;
+    height: 5em;
+    cursor: pointer;
+}
+
+.rock:hover, .paper:hover, .scissors:hover {
+    opacity: 0.7;
+}
+
+#info-r-p-s {
+    font-size: 2.2em;
+    color: black;
+}
+
+#reset-r-p-s {
+    background: #f8f3e6;
+    border: 0.15em solid  rgb(224, 235, 238);
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+}
+
+#reset-r-p-s:hover{
+    background-color:  rgb(224, 235, 238);
+    transition: 1s;
+}
